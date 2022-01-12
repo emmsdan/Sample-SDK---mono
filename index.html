@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Jumia </h1>
+<button id='button'> start </button>
+<script src="http://localhost:63342/simple-pay/sdk/dist/main.js"></script>
+
+<script>
+      const app = new window.Vibes({
+        apiKey: 1
+      });
+    var button = document.getElementById('button');
+    button.addEventListener('click', function () {
+      console.log(app);
+      app.start();
+      // payWithSimplePay(options);
+    })
+</script>
+</body>
+</html>

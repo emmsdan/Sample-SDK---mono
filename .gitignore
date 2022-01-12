@@ -1,0 +1,8 @@
+node_modules
+pay-view/node_modules
+sdk/node_modules
+
+dist
+pay-view/dist
+sdk/dist
+
